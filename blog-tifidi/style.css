@@ -1,0 +1,173 @@
+/* Importo i font che userò */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/* Azzero i default per tutti i browser */
+:root {
+    --c-primary: #1473E6;
+    /* vedere il link per capire i valori: https://codepen.io/sosuke/pen/Pjoqqp */
+    --c-primary-svg: brightness(0) saturate(100%) invert(36%) sepia(93%) saturate(1123%) hue-rotate(191deg) brightness(88%) contrast(104%);
+    --c-black: rgba(44, 44, 44, 1);
+    --c-black-30: rgba(75, 75, 75, 1);
+    --c-black-20: rgba(110, 110, 110, 1);
+    --c-border: rgba(245, 245, 245, 1);
+    --c-white: rgba(255, 255, 255, 1);
+
+    --root-font-size: 16px;
+    --fs-x-small: 0.75rem;
+    --fs-xx-small: 0.5rem;
+    --font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    --p-padding-around: 8px;
+    --p-space-between: 16px;
+}
+html,
+
+body {
+  margin: 2px;
+  padding: 5px;
+  font-family: var(--font-family);
+  font-size: var(--root-font-size);
+  box-sizing: border-box;
+}
+
+header.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: var(--p-padding-around);
+    margin: var(--p-space-between);
+
+}
+header nav ul {
+    display: flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header nav ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+header nav ul li:first-child {
+    padding-left: 0px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--c-black-20);
+    font-size: var(--fs-xx-small);
+    font-weight: bold;
+}
+
+header img.logo {
+    width: 80px;
+}
+
+p {
+    text-align: justify;
+    color: var(--c-black-20);
+}
+
+header p {
+    color: var(--c-black-20);
+    font-size: var(--fs-xx-small);
+    font-weight: bold;
+}
+
+header p > :first-child {
+    color: var(--c-black-30);
+    font-size: var(--fs-x-small);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px;
+    align-self: end;
+}
+footer .time-to-read {
+    font-size: var(--fs-xx-small);
+    font-weight: bold;
+    color: rgba(110, 110, 110, 1);
+}
+
+footer .read-full {
+    font-size: var(--fs-x-small);
+    font-weight: bold;
+    color: var(--c-primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+footer a.read-full {
+    text-decoration: none;
+}
+footer .read-full img {
+    filter: var(--c-primary-svg);
+}
+
+article {
+    border: solid var(--c-border) 1px;
+    border-radius: 5px;
+    padding: var(--p-padding-around);
+    margin: var(--p-space-between);
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+aside article {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+aside article > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+article h2, article h1{
+    padding: 0;
+    margin: 8px 0 0 0;
+}
+
+article p {
+    padding: 0;
+    margin: 0;
+}
+
+article.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+article.main > img {
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    object-fit: contain;
+    flex: 1 1 500px;
+}
+
+div.main-article {
+    flex: 1 1 200px;
+}
+
+div.content {
+    flex: 1 1 200px;
+}
+
+
