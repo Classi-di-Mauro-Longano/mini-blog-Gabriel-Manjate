@@ -1,24 +1,21 @@
-body {
+body{
     background-color: rgb(255, 255, 255);
 }
-
-.voce1 {
+.voce1{
     visibility: hidden;
     font-size: 10px;
     position: relative;
     top: -58.1px;
     right: -390px;
 }
-
-.voce2 {
+.voce2{
     visibility: hidden;
     font-size: 10px;
     position: relative;
     top: -70px;
     right: -460px;
 }
-
-.voce3 {
+.voce3{
     visibility: hidden;
     font-size: 10px;
     position: relative;
@@ -26,7 +23,7 @@ body {
     right: -530px;
 }
 
-.square {
+.square{
     display: grid;
     grid-auto-rows: 60px;
     grid-template-columns: 60px;
@@ -34,24 +31,21 @@ body {
     place-content: center;
 
 }
-
-.square1 {
+.square1{
     background-color: rgb(0, 0, 0);
     position: relative;
     right: 173.5px;
-    align-content: flex-end;
+    align-content:flex-end; 
     color: rgb(255, 255, 255);
 }
-
-.immagine {
+.immagine{
     display: flex;
     margin: auto;
     position: relative;
     top: 23px;
     width: 400px;
 }
-
-.menu {
+.menu{
     display: flex;
     margin: auto;
     width: 35px;
@@ -59,10 +53,8 @@ body {
     right: -175px;
     position: relative;
 }
-
-.description {
-    color: rgba(110, 110, 110, 1);
-    ;
+.description{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -71,57 +63,50 @@ body {
     right: 157px;
     font-size: 8px;
 }
-
-.testo1 {
+.testo1{
     position: relative;
     place-content: center;
     display: flex;
     font-weight: bold;
-    color: rgba(44, 44, 44, 1);
+    color:  rgba(44, 44, 44, 1);
     top: 32px;
     right: 70px;
 }
 
-.descrizione1 {
+.descrizione1{
     display: grid;
     grid-auto-rows: 90px;
     grid-template-columns: 400px;
     align-self: center;
     place-content: center;
 }
-
-.testodesc1 {
+.testodesc1{
     background-color: rgb(255, 255, 255);
     text-align: justify;
     position: relative;
     top: 40px;
-    align-content: top;
+    align-content:top; 
     color: rgba(110, 110, 110, 1);
 }
-
-.testodesc2 {
+.testodesc2{
     background-color: rgb(255, 255, 255);
     text-align: justify;
     position: relative;
     top: 70px;
-    align-content: top;
+    align-content:top; 
     color: rgba(110, 110, 110, 1);
 }
-
-.testo2 {
+.testo2{
     display: flex;
     place-content: center;
     position: relative;
     top: 32px;
     right: -281px;
-    color: rgba(110, 110, 110, 1);
-    ;
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
 }
-
-.description2 {
-    color: rgba(110, 110, 110, 1);
-    ;
+.description2{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -130,8 +115,7 @@ body {
     right: 178px;
     font-size: 8px;
 }
-
-.arrow {
+.arrow{
     place-content: center;
     display: flex;
     position: relative;
@@ -139,8 +123,7 @@ body {
     top: 75.6px;
     right: -187px;
 }
-
-.description3 {
+.description3{
     color: #1473E6;
     font-weight: bold;
     place-content: center;
@@ -150,18 +133,15 @@ body {
     right: -160px;
     font-size: 8px;
 }
-
-.immagine2 {
+.immagine2{
     display: flex;
     margin: auto;
     position: relative;
     top: 93px;
     width: 400px;
 }
-
-.description4 {
-    color: rgba(110, 110, 110, 1);
-    ;
+.description4{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -170,18 +150,16 @@ body {
     right: 157px;
     font-size: 8px;
 }
-
-.testo3 {
+.testo3{
     position: relative;
     place-content: center;
     display: flex;
     font-weight: bold;
-    color: rgba(44, 44, 44, 1);
+    color:  rgba(44, 44, 44, 1);
     top: 130px;
     right: 166px;
 }
-
-.testodesc3-container {
+.testodesc3-container{
     align-self: center;
     place-content: center;
     visibility: visible;
@@ -190,19 +168,16 @@ body {
     display: grid;
     background-color: rgb(255, 255, 255);
 }
-
-.testodesc3 {
+.testodesc3{
     background-color: rgb(255, 255, 255);
     text-align: justify;
     position: relative;
     top: 134px;
-    align-content: top;
+    align-content:top; 
     color: rgba(110, 110, 110, 1);
 }
-
-.description5 {
-    color: rgba(110, 110, 110, 1);
-    ;
+.description5{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -211,8 +186,7 @@ body {
     right: 180px;
     font-size: 8px;
 }
-
-.description6 {
+.description6{
     color: #1473E6;
     font-weight: bold;
     place-content: center;
@@ -222,8 +196,7 @@ body {
     right: -160px;
     font-size: 8px;
 }
-
-.arrow1 {
+.arrow1{
     place-content: center;
     display: flex;
     position: relative;
@@ -231,8 +204,7 @@ body {
     top: 103.5px;
     right: -187px;
 }
-
-.immagine3 {
+.immagine3{
     display: flex;
     margin: auto;
     position: relative;
@@ -240,9 +212,8 @@ body {
     width: 400px;
 }
 
-.description7 {
-    color: rgba(110, 110, 110, 1);
-    ;
+.description7{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -251,18 +222,16 @@ body {
     right: 157px;
     font-size: 8px;
 }
-
-.testo4 {
+.testo4{
     position: relative;
     place-content: center;
     display: flex;
     font-weight: bold;
-    color: rgba(44, 44, 44, 1);
+    color:  rgba(44, 44, 44, 1);
     top: 140px;
     right: 152px;
 }
-
-.container-description4 {
+.container-description4{
     align-self: center;
     place-content: center;
     visibility: visible;
@@ -272,19 +241,16 @@ body {
     background-color: rgb(255, 255, 255);
 
 }
-
-.testodesc4 {
+.testodesc4{
     background-color: rgb(255, 255, 255);
     text-align: justify;
     position: relative;
     top: 144px;
-    align-content: top;
+    align-content:top; 
     color: rgba(110, 110, 110, 1);
 }
-
-.description8 {
-    color: rgba(110, 110, 110, 1);
-    ;
+.description8{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -293,8 +259,7 @@ body {
     right: 178.5px;
     font-size: 8px;
 }
-
-.arrow2 {
+.arrow2{
     place-content: center;
     display: flex;
     position: relative;
@@ -302,8 +267,7 @@ body {
     top: 117.5px;
     right: -187px;
 }
-
-.description9 {
+.description9{
     color: #1473E6;
     font-weight: bold;
     place-content: center;
@@ -313,18 +277,15 @@ body {
     right: -160px;
     font-size: 8px;
 }
-
-.immagine4 {
+.immagine4{
     display: flex;
     margin: auto;
     position: relative;
     top: 123px;
     width: 400px;
 }
-
-.testodesc7 {
-    color: rgba(110, 110, 110, 1);
-    ;
+.testodesc7{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -333,18 +294,16 @@ body {
     right: 153px;
     font-size: 8px;
 }
-
-.testo5 {
+.testo5{
     position: relative;
     place-content: center;
     display: flex;
     font-weight: bold;
-    color: rgba(44, 44, 44, 1);
+    color:  rgba(44, 44, 44, 1);
     top: 140px;
     right: 152px;
 }
-
-.testodesc5-container {
+.testodesc5-container{
     align-self: center;
     place-content: center;
     visibility: visible;
@@ -353,19 +312,16 @@ body {
     display: grid;
     background-color: rgb(255, 255, 255);
 }
-
-.testodesc5 {
+.testodesc5{
     background-color: rgb(255, 255, 255);
     text-align: justify;
     position: relative;
     top: 144px;
-    align-content: top;
+    align-content:top; 
     color: rgba(110, 110, 110, 1);
 }
-
-.description11 {
-    color: rgba(110, 110, 110, 1);
-    ;
+.description11{
+    color: rgba(110, 110, 110, 1);;
     font-weight: bold;
     place-content: center;
     display: flex;
@@ -374,8 +330,7 @@ body {
     right: 180px;
     font-size: 8px;
 }
-
-.arrow3 {
+.arrow3{
     place-content: center;
     display: flex;
     position: relative;
@@ -383,8 +338,7 @@ body {
     top: 117.5px;
     right: -187px;
 }
-
-.description10 {
+.description10{
     color: #1473E6;
     font-weight: bold;
     place-content: center;
@@ -394,39 +348,35 @@ body {
     right: -160px;
     font-size: 8px;
 }
-
-.spazio {
+.spazio{
     display: grid;
     grid-auto-rows: 40px;
     grid-template-columns: 90px;
     align-self: center;
     place-content: center;
 }
-
-.spaziotext {
+.spaziotext{
     background-color: rgb(255, 255, 255);
     text-align: justify;
     position: relative;
     top: 110px;
-    align-content: top;
+    align-content:top; 
     color: rgba(110, 110, 110, 1);
 }
 
-@media(min-width: 780px) {
-    .square1 {
+@media(min-width: 780px){
+    .square1{
         background-color: rgb(0, 0, 0);
         position: relative;
         right: 300.5px;
         top: -30pX;
-        align-content: flex-end;
+        align-content:flex-end; 
         color: rgb(255, 255, 255);
     }
-
-    .menu {
+    .menu{
         visibility: hidden;
     }
-
-    .voce-grid {
+    .voce-grid{
         display: grid;
         background-color: #ffffff;
         grid-auto-rows: 1px;
@@ -434,8 +384,7 @@ body {
         align-self: center;
         place-content: center;
     }
-
-    .voce1 {
+    .voce1{
 
         visibility: visible;
         font-size: 10px;
@@ -444,8 +393,7 @@ body {
         top: -70px;
         right: -30px;
     }
-
-    .voce2 {
+    .voce2{
 
         visibility: visible;
         font-size: 10px;
@@ -453,8 +401,7 @@ body {
         top: -70.5px;
         right: -90px;
     }
-
-    .voce3 {
+    .voce3{
 
         visibility: visible;
         font-size: 10px;
@@ -462,8 +409,7 @@ body {
         top: -71.2px;
         right: -150px;
     }
-
-    .immagine {
+    .immagine{
         display: flex;
         margin: auto;
         position: relative;
@@ -471,10 +417,8 @@ body {
         right: 27px;
         width: 600px;
     }
-
-    .description {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -483,49 +427,44 @@ body {
         right: 285px;
         font-size: 8px;
     }
-
-    .testo1 {
+    .testo1{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: 32px;
         right: 165px;
         font-size: 20px;
     }
-
-    .descrizione1 {
+    
+    .descrizione1{
         display: grid;
         grid-auto-rows: 80px;
         grid-template-columns: 600px;
         align-self: center;
         place-content: center;
     }
-
-    .testodesc1 {
+    .testodesc1{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: 40px;
         right: 23px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .testodesc2 {
+    .testodesc2{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: 70px;
         right: 23px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
-    }
-
-    .description2 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    }   
+    .description2{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -534,8 +473,7 @@ body {
         right: 299px;
         font-size: 8px;
     }
-
-    .arrow {
+    .arrow{
         place-content: center;
         display: flex;
         position: relative;
@@ -543,8 +481,7 @@ body {
         top: 75.6px;
         right: -285px;
     }
-
-    .description3 {
+    .description3{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -554,8 +491,7 @@ body {
         right: -257px;
         font-size: 8px;
     }
-
-    .immagine2 {
+    .immagine2{
         display: flex;
         margin: auto;
         position: relative;
@@ -563,10 +499,8 @@ body {
         right: 190px;
         width: 300px;
     }
-
-    .description4 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description4{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -575,38 +509,33 @@ body {
         right: 295px;
         font-size: 8px;
     }
-
-    .testo3 {
+    .testo3{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: 130px;
         right: 304px;
     }
-
-    .testodesc3-container {
+    .testodesc3-container{
         visibility: visible;
         grid-auto-rows: 90px;
         grid-template-columns: 297px;
         display: grid;
         background-color: rgb(255, 255, 255);
     }
-
-    .testodesc3 {
+    .testodesc3{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: 134px;
         right: 188px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .description5 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description5{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -615,8 +544,7 @@ body {
         right: 315px;
         font-size: 8px;
     }
-
-    .description6 {
+    .description6{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -626,8 +554,7 @@ body {
         right: 80px;
         font-size: 8px;
     }
-
-    .arrow1 {
+    .arrow1{
         place-content: center;
         display: flex;
         position: relative;
@@ -635,8 +562,7 @@ body {
         top: 127px;
         right: 50px;
     }
-
-    .immagine3 {
+    .immagine3{
         display: flex;
         margin: auto;
         position: relative;
@@ -644,10 +570,8 @@ body {
         right: -190px;
         width: 300px;
     }
-
-    .description7 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description7{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -656,18 +580,16 @@ body {
         right: -83px;
         font-size: 8px;
     }
-
-    .testo4 {
+    .testo4{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: -190px;
         right: -89px;
     }
-
-    .container-description4 {
+    .container-description4{
         align-self: center;
         place-content: center;
         visibility: visible;
@@ -675,22 +597,19 @@ body {
         grid-template-columns: 300px;
         display: grid;
         background-color: rgb(255, 255, 255);
-
+    
     }
-
-    .testodesc4 {
+    .testodesc4{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: -184px;
         right: -192px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .description8 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description8{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -699,8 +618,7 @@ body {
         right: -62px;
         font-size: 8px;
     }
-
-    .arrow2 {
+    .arrow2{
         place-content: center;
         display: flex;
         position: relative;
@@ -708,8 +626,7 @@ body {
         top: -182px;
         right: -330px;
     }
-
-    .description9 {
+    .description9{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -719,8 +636,7 @@ body {
         right: -300px;
         font-size: 8px;
     }
-
-    .immagine4 {
+    .immagine4{
         display: flex;
         margin: auto;
         position: relative;
@@ -728,10 +644,8 @@ body {
         top: -160px;
         width: 300px;
     }
-
-    .testodesc7 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .testodesc7{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -740,18 +654,16 @@ body {
         right: 293px;
         font-size: 8px;
     }
-
-    .testo5 {
+    .testo5{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: -134px;
         right: 288px;
     }
-
-    .testodesc5-container {
+    .testodesc5-container{
         align-self: center;
         place-content: center;
         visibility: visible;
@@ -760,20 +672,17 @@ body {
         display: grid;
         background-color: rgb(255, 255, 255);
     }
-
-    .testodesc5 {
+    .testodesc5{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: -130px;
         right: 187px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .description11 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description11{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -782,8 +691,7 @@ body {
         right: 312px;
         font-size: 8px;
     }
-
-    .arrow3 {
+    .arrow3{
         place-content: center;
         display: flex;
         position: relative;
@@ -791,8 +699,7 @@ body {
         top: -134px;
         right: 40px;
     }
-
-    .description10 {
+    .description10{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -802,41 +709,36 @@ body {
         right: 70px;
         font-size: 8px;
     }
-
-    .spazio {
+    .spazio{
         display: grid;
         grid-auto-rows: 10px;
         grid-template-columns: 0px;
         align-self: center;
         place-content: center;
     }
-
-    .spaziotext {
+    .spaziotext{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: 100px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
 
 }
-
-@media(min-width: 1200px) {
-    .square1 {
+@media(min-width: 1200px){
+    .square1{
         background-color: rgb(0, 0, 0);
         position: relative;
         right: 500.5px;
         top: -30pX;
-        align-content: flex-end;
+        align-content:flex-end; 
         color: rgb(255, 255, 255);
     }
-
-    .menu {
+    .menu{
         visibility: hidden;
     }
-
-    .voce-grid {
+    .voce-grid{
         display: grid;
         background-color: #ffffff;
         grid-auto-rows: 1px;
@@ -844,8 +746,7 @@ body {
         align-self: center;
         place-content: center;
     }
-
-    .voce1 {
+    .voce1{
 
         visibility: visible;
         font-size: 10px;
@@ -854,8 +755,7 @@ body {
         top: -70px;
         right: -310px;
     }
-
-    .voce2 {
+    .voce2{
 
         visibility: visible;
         font-size: 10px;
@@ -863,8 +763,7 @@ body {
         top: -70.5px;
         right: -400px;
     }
-
-    .voce3 {
+    .voce3{
 
         visibility: visible;
         font-size: 10px;
@@ -872,8 +771,7 @@ body {
         top: -71.2px;
         right: -500px;
     }
-
-    .immagine {
+    .immagine{
         display: flex;
         margin: auto;
         position: relative;
@@ -881,10 +779,8 @@ body {
         right: 295px;
         width: 470px;
     }
-
-    .description {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -893,49 +789,44 @@ body {
         right: 2px;
         font-size: 8px;
     }
-
-    .testo1 {
+    .testo1{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: -230px;
         right: -117px;
         font-size: 20px;
     }
-
-    .descrizione1 {
+    
+    .descrizione1{
         display: grid;
         grid-auto-rows: 80px;
         grid-template-columns: 600px;
         align-self: center;
         place-content: center;
     }
-
-    .testodesc1 {
+    .testodesc1{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: -220px;
         right: -258px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .testodesc2 {
+    .testodesc2{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: -200px;
         right: -258px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
-    }
-
-    .description2 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    }   
+    .description2{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -944,8 +835,7 @@ body {
         right: 20px;
         font-size: 8px;
     }
-
-    .arrow {
+    .arrow{
         place-content: center;
         display: flex;
         position: relative;
@@ -953,8 +843,7 @@ body {
         top: -200px;
         right: -530px;
     }
-
-    .description3 {
+    .description3{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -964,8 +853,7 @@ body {
         right: -499px;
         font-size: 8px;
     }
-
-    .immagine2 {
+    .immagine2{
         display: flex;
         margin: auto;
         position: relative;
@@ -973,10 +861,8 @@ body {
         right: 380px;
         width: 300px;
     }
-
-    .description4 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description4{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -985,38 +871,33 @@ body {
         right: 485px;
         font-size: 8px;
     }
-
-    .testo3 {
+    .testo3{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: -130px;
         right: 494px;
     }
-
-    .testodesc3-container {
+    .testodesc3-container{
         visibility: visible;
         grid-auto-rows: 90px;
         grid-template-columns: 297px;
         display: grid;
         background-color: rgb(255, 255, 255);
     }
-
-    .testodesc3 {
+    .testodesc3{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: -124px;
         right: 377px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .description5 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description5{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -1025,8 +906,7 @@ body {
         right: 503px;
         font-size: 8px;
     }
-
-    .description6 {
+    .description6{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -1036,8 +916,7 @@ body {
         right: 270px;
         font-size: 8px;
     }
-
-    .arrow1 {
+    .arrow1{
         place-content: center;
         display: flex;
         position: relative;
@@ -1045,8 +924,7 @@ body {
         top: -128px;
         right: 240px;
     }
-
-    .immagine3 {
+    .immagine3{
         display: flex;
         margin: auto;
         position: relative;
@@ -1054,10 +932,8 @@ body {
         right: 0px;
         width: 300px;
     }
-
-    .description7 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description7{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -1066,18 +942,16 @@ body {
         right: 106px;
         font-size: 8px;
     }
-
-    .testo4 {
+    .testo4{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: -470px;
         right: 100px;
     }
-
-    .container-description4 {
+    .container-description4{
         align-self: center;
         place-content: center;
         visibility: visible;
@@ -1085,22 +959,19 @@ body {
         grid-template-columns: 300px;
         display: grid;
         background-color: rgb(255, 255, 255);
-
+    
     }
-
-    .testodesc4 {
+    .testodesc4{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: -464px;
         right: -3px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .description8 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description8{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -1109,8 +980,7 @@ body {
         right: 125px;
         font-size: 8px;
     }
-
-    .arrow2 {
+    .arrow2{
         place-content: center;
         display: flex;
         position: relative;
@@ -1118,8 +988,7 @@ body {
         top: -466px;
         right: -140px;
     }
-
-    .description9 {
+    .description9{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -1129,8 +998,7 @@ body {
         right: -110px;
         font-size: 8px;
     }
-
-    .immagine4 {
+    .immagine4{
         display: flex;
         margin: auto;
         position: relative;
@@ -1138,10 +1006,8 @@ body {
         top: -827px;
         width: 300px;
     }
-
-    .testodesc7 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .testodesc7{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -1150,18 +1016,16 @@ body {
         right: -274px;
         font-size: 8px;
     }
-
-    .testo5 {
+    .testo5{
         position: relative;
         place-content: center;
         display: flex;
         font-weight: bold;
-        color: rgba(44, 44, 44, 1);
+        color:  rgba(44, 44, 44, 1);
         top: -807px;
         right: -280px;
     }
-
-    .testodesc5-container {
+    .testodesc5-container{
         align-self: center;
         place-content: center;
         visibility: visible;
@@ -1170,20 +1034,17 @@ body {
         display: grid;
         background-color: rgb(255, 255, 255);
     }
-
-    .testodesc5 {
+    .testodesc5{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: -800px;
         right: -383px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
-
-    .description11 {
-        color: rgba(110, 110, 110, 1);
-        ;
+    .description11{
+        color: rgba(110, 110, 110, 1);;
         font-weight: bold;
         place-content: center;
         display: flex;
@@ -1192,8 +1053,7 @@ body {
         right: -257px;
         font-size: 8px;
     }
-
-    .arrow3 {
+    .arrow3{
         place-content: center;
         display: flex;
         position: relative;
@@ -1201,8 +1061,7 @@ body {
         top: -804px;
         right: -520px;
     }
-
-    .description10 {
+    .description10{
         color: #1473E6;
         font-weight: bold;
         place-content: center;
@@ -1212,21 +1071,19 @@ body {
         right: -490px;
         font-size: 8px;
     }
-
-    .spazio {
+    .spazio{
         display: grid;
         grid-auto-rows: 0px;
         grid-template-columns: 100px;
         align-self: center;
         place-content: center;
     }
-
-    .spaziotext {
+    .spaziotext{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
         top: 100px;
-        align-content: top;
+        align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
 }
